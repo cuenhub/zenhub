@@ -5,7 +5,7 @@ local supportedgames = {
 
 for _, id in ipairs(supportedgames) do
         if game.PlaceId == id then
-            print("Hello World")
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/cuenhub/zenhub/main/scripts/"..game.PlaceId,true))()
             return
   else
     
