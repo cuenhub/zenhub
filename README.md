@@ -7,7 +7,7 @@ if you ever experience a bug, please dm me on the discord server and will attemp
 # how do I use it?
  to use zen hub in your executor, simply execute the loadstring below
 ```lua
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/cuenhub/zenhub/loader.lua"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/cuenhub/zenhub/main.loader.lua"))()
 ```
 
 
