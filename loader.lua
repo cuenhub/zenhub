@@ -8,6 +8,6 @@ for _, id in ipairs(supportedgames) do
            loadstring(game:HttpGet("https://raw.githubusercontent.com/cuenhub/zenhub/main/scripts/"..game.PlaceId,true))()
             return
   else
-    
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/cuenhub/zenhub/main/scripts/unsupported",true))()
         end
  end
